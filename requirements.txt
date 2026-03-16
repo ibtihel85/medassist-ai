@@ -1,0 +1,23 @@
+# ── Core ML / AI ────────────────────────────────────────────────
+torch==2.9.0
+transformers==4.44.2
+datasets==2.21.0
+accelerate==0.33.0
+bitsandbytes==0.43.0
+sentence-transformers==3.0.1
+
+# ── LangChain Stack ──────────────────────────────────────────────
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-huggingface==0.0.3
+
+# ── Vector Database ──────────────────────────────────────────────
+faiss-cpu==1.8.0
+
+# ── Data / Evaluation ────────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+
+# ── Utilities ────────────────────────────────────────────────────
+tqdm==4.66.5
